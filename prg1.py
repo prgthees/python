@@ -1,4 +1,4 @@
-x=int(input("num:"))
+x=int(input())
 if x<0:
   print("negative")
 elif x>0:
