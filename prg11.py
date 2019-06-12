@@ -1,3 +1,3 @@
 a=input()
-b=len(a)
+b=len(str(a))
 print(b)
