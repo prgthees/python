@@ -1,3 +1,2 @@
-a=str(input())
-b=a[::-1]
-print(b)
+g=input()
+print("".join(reversed(g)))
