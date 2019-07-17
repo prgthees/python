@@ -1,4 +1,4 @@
-import statistics
-bc=int(input())
-cd=list(map(int,input().split()))[:n]
-print(statistics.median(cd))
+p=int(input())
+r=list(map(int,input().split()))
+g=sorted(r)
+print(g[p//2])
