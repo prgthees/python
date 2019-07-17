@@ -1,5 +1,5 @@
 abc=int(input())
-dem=map(int,input().split())
+dem=list(map(int,input().split()[:abc]))
 print(sorted(dem))
 for i in dem:
   print(i,end=" ")
