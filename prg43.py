@@ -1,5 +1,5 @@
 a=str(input())
-b=['saturday','sunday']
+b=['Saturday','Sunday']
 if a in b:
   print('yes')
 else:
