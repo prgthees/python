@@ -1,2 +1,2 @@
-p=int(input())
-print(p+1)
+prg=int(input())
+print(prg+1)
