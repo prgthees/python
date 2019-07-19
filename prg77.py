@@ -1,3 +1,3 @@
-a=input()
-b=len(a)
-print(b)
+prg=input()
+b=len(pre)
+print(pre)
