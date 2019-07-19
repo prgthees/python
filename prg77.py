@@ -1,3 +1,3 @@
 prg=input()
-b=len(pre)
+pre=len(pre)
 print(pre)
