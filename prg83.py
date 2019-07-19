@@ -1,0 +1,2 @@
+prg=input()
+print(prg)
