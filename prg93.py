@@ -1,15 +1,11 @@
-import sys, string, math
-def reduceN( o, k) :
-	if k <= 0 : return o
+from itertools import combinations
+(o,x) =input().split()
+x=int(x)
+arr=[]
+comb=combinations(o,len(o)-x)
+comb=list(comb)
 
-	if o == 0 : return 10	# Fail
-	p1 = reduceN(o//10, k)*10 + n%10
-	p2 = reduceN(o//10, k-1)
-	if p1 < p2 :
-		return p1
-	else :
-		return p2
+for i in (comb):
+    arr.append("".join(i))
 
-o,k = input().split()
-o,k = int(o),int(k)
-print(reduceN(o,k))
+print(min(arr))
