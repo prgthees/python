@@ -1,6 +1,6 @@
 p=input()
 r=[]
-for i in r:
+for i in p:
     if(i.isnumeric()):
         r.append(i)
 print(''.join(r))
